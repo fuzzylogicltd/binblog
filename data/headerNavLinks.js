@@ -1,5 +1,5 @@
 const headerNavLinks = [
-  { href: 'https://fuzzylogic.ltd', title: 'My Site' }
+  { href: 'https://fuzzylogic.ltd', title: 'fuzzylogic.ltd' }
 ]
 
 export default headerNavLinks
