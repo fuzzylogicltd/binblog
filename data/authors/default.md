@@ -1,6 +1,6 @@
 ---
 name: Lazar
-avatar: /static/images/avatar.png
+avatar: /static/images/alien.jpg
 occupation: 
 company: 
 email: lazar@fuzzylogic.ltd
