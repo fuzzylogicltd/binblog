@@ -1,0 +1,68 @@
+---
+title: To Spotify Or Not Spotify
+date: '2024-12-22'
+tags: ['music', 'tech']
+draft: false
+summary:
+---
+
+Hello, my name is Lazar and I'm a music hoarder.
+
+![Support](/static/images/support.png)
+
+Ok, that may be a bit of an exaggeration. But I've been collecting music as long as I've been on the internet, and that's coming up on about a quarter of a century now? To be fair, I haven't kept every single thing I downloaded from Napster in like 2000. Music tastes change as you grow and get older and all that, so there have been many cullings of the library over that time.
+
+But I do have a decent amount of it, and yes, some if it _is_ in fact from Napster in the year 2000.
+
+## Our Music Overlords
+
+Why am I even going on about this? I'm trying to explain why I don't use Spotify, or any similar service.
+
+Because I've realized in recent years, that using anything _other_ than Spotify or YouTube to listen to music has become very unusual. Not unheard of, but uncommon for sure.
+
+And I understand the convenience of the whole thing, if you have Spotify you don't have to worry about pretty much _anything_. Just think of what you want to listen to, and play it. And even if you can't decide, the app will give you curated playlists and what not. It's super convenient, seriously. And I think the majority of the people under 25 now almost don't know of a different way to listen to music.
+
+I hate it, and here are the reasons why. Buckle up.
+
+First, I blame algorithms for 15% of what's wrong with society in general, and 60% of what's wrong with culture/entertainment in particular. I'll save the details of that specific gripe for another post, but the short of it is, I don't want a computer deciding what I should listen to, just so it can get me to listen for longer.
+
+Second, Spotify specifically has been a disaster for artists, it's not just from the fact that they're a monopoly, [their entire business model is borderline criminal](https://pluralistic.net/2022/09/12/streaming-doesnt-pay/).
+
+Third, this is not a "hate" thing, just another reason for me not to use it: while Spotify does have A LOT of stuff, it doesn't have everything, and if I had to guess it probably doesn't have like 20% of the more obscure stuff in my collection. I mean I have random live versions of certain songs, alternative versions, remixes, demo tracks, some published but barely known bands etc. There's weird stuff in there, and I'm fond of my weird stuff.
+
+Fourth, I'm not too keen on the whole subscription model for everything where you don't own anything any more.
+
+So with all that old-man-yelling-at-cloud stuff out of the way is there a point to this and can we please get to it?
+
+Why, yes.
+
+## An Alternative
+
+Some time ago I've discovered a piece of software called [Navidrome](https://www.navidrome.org/). It's an open source music server that you spin up anywhere software can be spun up, feed it your mp3 collection and you've basically got your own private Spotify.
+
+Well, just without the algorithm and the subscription and tracking.
+
+Let's break that down a little more. You need to figure out where you'll host this. Navidrome themselves recommend [PikaPods](https://www.navidrome.org/docs/installation/managed/#pikapods) as a one-click solution almost, and that's what I used. But you could put it on any other cloud hosting, or even spin up your own server. There's an [official Docker image](https://www.navidrome.org/docs/installation/docker/) which should make it pretty simple as well.
+
+You then make an account for yourself, but you can also make accounts for other people as well, making it even more like a private Spotify. Each account can make their own playlists and have separate listening histories, favorites and all that.
+
+And you can listen to it from the browser, but what's really cool is that Navidrome supports a streaming standard called SubSonic, and you can use any music app that supports it to hook up to your server and listen to it.
+
+There are [a lot of apps for both desktop and mobile](https://www.navidrome.org/docs/overview/#apps), but to be honest, none of the desktop ones I've tried are particularly good. So I just ended up saving the site as a PWA and using that. It's not Winamp, but it's ok.
+
+On mobile the situation is a lot better, and the app I recommend for Android is [Symphonium](https://symfonium.app/). It's customizable and lovely. And customizable.
+
+But why would you want to even do all this, why not just listen to your music locally and be done with it?
+
+Well, there's a few reasons I can think of:
+
+- You can listen to it on your phone without giving up tens of gigs of precious space (isn't that one of the main selling points of Spotify?)
+- But, if you're using Symphonium, you can still cache specific artists or albums locally, if you're going on a trip or something.
+- You can easily share your music with other people, just make them an account.
+- You have an offsite backup of your music collection (on the server).
+- When you update the library, you only have to worry about one copy, not update every device you may use to listen to music.
+- You can also add your favorite internet radios, for those times where you don't know what you'd like to listen to. It saves a few clicks.
+
+So all in all I'm very happy with my setup. I have the freedom of having my own music, and most of the convenience of something like Spotify with none of the downsides.
+
+![Medieval Party](/static/images/medival-party.jpeg)
